@@ -13,4 +13,15 @@ public class GreetingController {
 		model.addAttribute("name",name);
 		return "greeting";
 	}
+	
+	@RequestMapping("/index")
+	public String index(Model model){
+		return "index";
+	}
+	
+	@RequestMapping("/welcome")
+	public String welcome(Model model){
+		return "welcome";
+	}
+	
 }
