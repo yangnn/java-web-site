@@ -19,9 +19,24 @@ public class GreetingController {
 		return "index";
 	}
 	
-	@RequestMapping("/welcome")
-	public String welcome(Model model){
-		return "welcome";
+	@RequestMapping("/about_us")
+	public String about(Model model){
+		return "about_us";
+	}
+	
+	@RequestMapping("/blog")
+	public String blog(Model model){
+		return "blog";
+	}
+	
+	@RequestMapping("/contacts")
+	public String contacts(Model model){
+		return "contacts";
+	}
+	
+	@RequestMapping("/gallery")
+	public String gallery(Model model){
+		return "gallery";
 	}
 	
 }
