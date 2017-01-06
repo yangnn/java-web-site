@@ -39,4 +39,5 @@ public class GreetingController {
 		return "gallery";
 	}
 	
+	
 }
